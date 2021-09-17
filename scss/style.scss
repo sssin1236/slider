@@ -54,3 +54,25 @@ a { text-decoration: none;}
         margin-top: -50px;
     }
 }
+
+.controls{
+    position: absolute;
+    right: 100px; bottom: 150px;
+
+    li{
+        float: left;
+        margin-left: 20px;
+
+        a{
+            display: inline-block;
+            font-size: 20px;
+            color: #999;
+            transition: 0.5s;
+
+            &.on{
+                color: #333;
+                transform: scale(1.5);
+            }
+        }
+    }
+}
